@@ -171,3 +171,16 @@ function possiblyRelated(pop){
               console.log(familyMemebers);
           }
 }
+var ulcer = inputMid([1,2,3,4,undefined,6,7,8,0]);
+var ogg = ulcer.shift();
+
+//====================END PossiblyRelated===============
+//====================NewChar=================================
+function newChar(){
+    var ran = Math.floor(Math.random(63) * 122 -1);
+    if(ran === 63) ran = 32;
+    if(ran === 65) ran = 46;
+    return String.fromCharCode((ran))
+}
+//======================================================
+
